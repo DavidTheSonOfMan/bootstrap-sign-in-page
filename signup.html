@@ -23,7 +23,7 @@
               <div class="brand-wrapper">
                 <img src="./assets/images/logo.svg" alt="logo" srcset="">
             </div>
-            <p class="login-card-description">sign in into your sccount</p>
+            <p class="login-card-description">Create an account</p>
             <form action="#">
               <div class="form-group">
                 <label for="name" class="sr-only">Name</label>
@@ -37,10 +37,25 @@
                 <label for="password" class="sr-only">Password</label>
                 <input type="password" name="password" id="password"  class="form-control" placeholder="Password">
               </div>
-              <input name="signup" id="signup" class="btn btn-block login-btn mb-4" value="SIGN UP">
+              <div class="form-group mb-4">
+                <label for="password" class="sr-only">Password</label>
+                <input type="password" name="password" id="password"  class="form-control" placeholder="Confirm Password">
+              </div>
+
+             <div class="me my-2 d-flex align-items-center justify-content-around">
+               <div class="me1 "> 
+                <input type="checkbox" required name="checkbox" id="checkbox">
+            </div> 
+                <div class="me2 d-flex align-items-center justify-content-around">
+                  <a href="#">Agree to our Terms of use.</a>
+                  <a href="#">Privacy Policy.</a>
+                </div>
+             </div>
+              <input type="button" name="login" id="login" class="btn btn-block login-btn mb-4" value="SIGN UP">
             </form>
-            <a href="#" class="forget-password-link">forget Password</a>
-            <p class="login-card-footer-text"> have an account ? <a href="#">login here</a></p>
+           
+            <!-- <a href="#" class="forget-password-link">forget Password</a> -->
+            <p class="login-card-footer-text"> have an account ? <a href="index.html">login here</a></p>
 <div class="login-card-footer-nav">
   <a href="#">Terms of use.</a>
   <a href="#">Privacy Policy.</a>
